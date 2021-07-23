@@ -6,10 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pandas = "==1.1.2"
-numpy = "==1.19.2"
-pandas-profiling = "==2.9.0"
+pandas = "*"
+numpy = "*"
+pandas-profiling = "*"
 jupyter = "==1.0.0"
+requests = "*"
+pathlib = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "*"
